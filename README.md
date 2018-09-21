@@ -23,11 +23,11 @@ Markdown es un lenguaje de marcado que facilita la aplicación de formato a un te
 
 ## ¿Cómo inicializo y configuro un proyecto de git?
 iniciar
-´´´sh
+```sh
 $ git config --global user.email "you@example.com"
 $ git config --global user.name "Your Name"
-´´´
+```
 configurar
-´´´sh
+```sh
 $ git init
-´´´
+```
