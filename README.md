@@ -1,9 +1,14 @@
 # Ejercicio 1
+
 Capacitacion: Git, bash y docker
+
 Integrantes:
+
 - Jose Clemente
+
 - Carlos Gomez
 
+- Scrum Master: Carlos Gomez
 
 ## 1¿Qué es y para qué sirve GIT?
 Es un sistema de control de versiones.
