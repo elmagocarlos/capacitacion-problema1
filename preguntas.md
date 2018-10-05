@@ -68,6 +68,17 @@ git push:Hace una actualización en nuestro branch local, desde un branch remoto 
 
 
 
+----------------
+
+
+¿Porqué es necesario crear un contenedor con esta bandera -it ? ¿Qué pasa si no le pongo -it?
+¿Para qué sirve ejecutar el comando bash al ejecutar una imagen?
+
+
+ ¿Cuál es la diferencia entre docker ps y docker ps -a?
+
+
+
 
 
 

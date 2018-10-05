@@ -11,4 +11,12 @@ cambiar la version
 
 docker tag carlos120gt/orbis-training-docker:0.1.0 carlos120gt/orbis-training-docker:0.2.0
 
-
+1. ¿Qué importancia tiene los tags en un proyecto?
+2. ¿Cuál es la diferencia entre un tag normal y un tag anotado en git?
+3. ¿Cómo se sube todos los tags de git que hay en mi local?
+4. ¿Es necesario loguearse cada vez que subo una imagen a dockerhub?
+5. ¿Qué es y para qué sirve docker?
+6. ¿Cuál es la diferencia entre docker y VirtualBox (virtualización)?
+7. ¿Es necesario depender de una imagen de docker base al crear una imagen nueva?
+8. ¿Porqué debo anteponer el nombre de usuario en una imagen docker nueva?
+9. ¿Que pasa si creo una imagen sin especificar una versión o tag, con qué versión se crea?
