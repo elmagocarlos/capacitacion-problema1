@@ -77,28 +77,7 @@ git push:Hace una actualización en nuestro branch local, desde un branch remoto 
 
  ¿Cuál es la diferencia entre docker ps y docker ps -a?
 
+----------permite ejecutar el contenedor
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+ docker run -it carlos120gt/orbis-training-docker:0.2.0 cat /app/preguntas.md
 
