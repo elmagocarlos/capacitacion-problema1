@@ -20,3 +20,20 @@ docker tag carlos120gt/orbis-training-docker:0.1.0 carlos120gt/orbis-training-do
 7. ¿Es necesario depender de una imagen de docker base al crear una imagen nueva?
 8. ¿Porqué debo anteponer el nombre de usuario en una imagen docker nueva?
 9. ¿Que pasa si creo una imagen sin especificar una versión o tag, con qué versión se crea?
+
+
+----------permite ejecutar configurar el puerto 
+
+docker run -d -p "1080:80" carlos120gt/orbis-training-docker:1.0.0
+
+--------Agregar docker-compose para la construcción y ejecución de la imagen
+
+docker-compose -f ./docker-compose.yml up
+
+-------- para permitir q se ejecute en segundo plano
+
+ docker-compose -f ./docker-compose.yml up -d
+
+-------- para verificar los LOGs
+
+docker-compose logs
