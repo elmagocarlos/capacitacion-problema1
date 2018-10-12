@@ -91,3 +91,11 @@ git push:Hace una actualización en nuestro branch local, desde un branch remoto 
 6. ¿Para qué es necesario el flag `-i`, `-t`, `--rm`?
 7. ¿Cómo verifico que el archivo creado se encuentra en la imagen?
 8. ¿Cómo se comenta una linea de código en Dockerfile?
+
+
+---------
+
+1. ¿Qué es NGINX?
+2. ¿Cómo expongo puertos en docker?
+3. ¿Cómo especifico los puertos al levantar un contenedor (docker run)?
+4. ¿Cómo hago 'forward' al levantar un contenedor (docker run)?

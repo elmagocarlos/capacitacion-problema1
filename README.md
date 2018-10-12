@@ -37,3 +37,21 @@ docker-compose -f ./docker-compose.yml up
 -------- para verificar los LOGs
 
 docker-compose logs
+
+-----------Usando docker run ejecutar npm install
+
+ docker run -w /app -it -v "e:\escritorio carlos\proyecto\Projects\orbis-training-project":/app carlos120gt/orbis-training-docker:2.0.0 npm install
+
+
+
+
+
+
+
+
+
+
+
+
+
+
