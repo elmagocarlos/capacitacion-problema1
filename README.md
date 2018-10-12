@@ -44,6 +44,17 @@ docker-compose logs
 
  docker run -w /app -it -v "e:\escritorio carlos\proyecto\Projects\orbis-training-project":/app carlos120gt/orbis-training-docker:2.0.0 npm install
 
+7. Exponer los puertos 3030 y 35729 en la imagen de docker, luego ejecutar npm start usando docker run
+
+docker run -p "35729:3030" -p "3030:3030" -w /app -v  "e:\escritorio carl
+os\proyecto\Projects\orbis-training-project":/app  carlos120gt/orbis-training-docker:2.0.0 npm start
+
+
+10. Usando la imagen de docker, ejecutar npm run release
+
+docker run -p "35729:1042" -w /app -v  "e:\escritorio carlos\proyecto\Projects\orbis-training-project":/app  carlos120gt/orbis-training-docker:2.0.0 npm rum release
+
+
 
 
 
