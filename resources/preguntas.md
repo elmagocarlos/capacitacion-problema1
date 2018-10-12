@@ -1,6 +1,6 @@
-# Ejercicio 1
+# Ejercicio 1 clase 3
 
-Capacitacion: Git, bash y docker
+Capacitacion: Git, bash y docker 
 
 Integrantes:
 

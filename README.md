@@ -26,6 +26,8 @@ docker tag carlos120gt/orbis-training-docker:0.1.0 carlos120gt/orbis-training-do
 
 docker run -d -p "1080:80" carlos120gt/orbis-training-docker:1.0.0
 
+
+
 --------Agregar docker-compose para la construcción y ejecución de la imagen
 
 docker-compose -f ./docker-compose.yml up
