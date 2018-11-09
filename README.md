@@ -56,7 +56,25 @@ docker run -p "35729:1042" -w /app -v  "e:\escritorio carlos\proyecto\Projects\o
 
 
 
+3. Crear un archivo llamado example.sh dentro de la carpeta resources
 
+Este archivo debe ser de tipo BASH, el cual ejecutará una función llamada saludo que mostrará Hola Docker
+El archivo se debe ejecutar usando docker run (no debe usar docker-compose).
+
+touch example.sh
+vim example.sh
+
+#!/bin/bash
+
+function saludar() {
+
+echo "Hello I am a function"
+
+}
+
+saludar
+
+docker run -w /app -v  "e:\escritorio carlos\proyecto\Projects\orbis-training-project\resources":/app  carlos120gt/orbis-training-docker:3.0.0 bash example.sh
 
 
 
